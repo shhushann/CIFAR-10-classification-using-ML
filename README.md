@@ -2,12 +2,12 @@
 
 This project explores multiple machine learning approaches for classifying images from the CIFAR-10 dataset. Various preprocessing strategies and classification models were evaluated, including deep learning and ensemble methods.
 
-## 📦 Dataset
+##  Dataset
 
 - **CIFAR-10**: 60,000 32×32 color images across 10 balanced classes.
 - Classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
 
-## 🧪 Preprocessing Steps
+##  Preprocessing Steps
 
 - **Flattening**: Images reshaped from 32×32×3 to 1D vectors.
 - **Labeling**: Assigning correct labels to each image.
@@ -15,7 +15,7 @@ This project explores multiple machine learning approaches for classifying image
 - **PCA**: Used to reduce dimensionality to 217 components, retaining 95% of data variance.
 - **Whitening**: Applied for decorrelation before clustering (K-Means).
 
-## 🧠 Models Evaluated
+##  Models Evaluated
 
 | Model              | Accuracy | Precision | Recall | ROC AUC |
 |-------------------|----------|-----------|--------|---------|
@@ -31,7 +31,7 @@ This project explores multiple machine learning approaches for classifying image
 - **HOG (Histogram of Oriented Gradients)** used for XGBoost to extract structural and textural information.
 - **Patch extraction** + **K-Means** + **Triangle encoding** for unsupervised feature learning in ensemble models.
 
-## 🏆 Best Performing Model
+##  Best Performing Model
 
 The **K-Means + SVM** pipeline achieved the highest classification accuracy at **73%**, significantly outperforming all other models. This approach benefited from patch-based whitening, unsupervised feature learning, and spatial pooling.
 
