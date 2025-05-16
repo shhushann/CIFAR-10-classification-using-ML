@@ -26,7 +26,7 @@ This project explores multiple machine learning approaches for classifying image
 | MLP               | 58.56%   | —         | —      | —       |
 | K-Means + SVM     | **73.00%**| 73.10%   | 73.00% | —       |
 
-## 🔍 Feature Engineering
+##  Feature Engineering
 
 - **HOG (Histogram of Oriented Gradients)** used for XGBoost to extract structural and textural information.
 - **Patch extraction** + **K-Means** + **Triangle encoding** for unsupervised feature learning in ensemble models.
